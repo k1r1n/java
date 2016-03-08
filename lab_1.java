@@ -4,12 +4,12 @@ public class lab_1 {
 		int[] score = new int[50];
 		for(int i=0;i<50;i++)
 			score[i] = random();
-		display(score);
+		display(score); // call function
 	}
 
 	public static int random(){
 		Random rand = new Random();
-		int randomNumber = rand.nextInt(100)+0); 
+		int randomNumber = rand.nextInt(100)+0;
 		return randomNumber;
 	}
 
